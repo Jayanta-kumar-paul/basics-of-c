@@ -1,19 +1,23 @@
-#include<stdio.h>
-int main ()
+#include <stdio.h>
+
+int main()
 {
-    int num,digit,sum=0;
+    int num, digit, sum = 0;
 
     printf("Enter a positive integers: ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
-    int temp=num;
-    do{
-        digit=temp%10;
-        sum+=digit;
-        temp/=10;
-    }while(temp>0);
+    int temp = num;
+    do
+    {
+        digit = temp % 10;
+        sum += digit;
+        temp /= 10;
+    } while (temp > 0);
 
-    printf("Sum of digit:%2d\n",sum);
+    printf("Sum of digit:%2d\n", sum);
+
     return 0;
-
 }
+// Enter a positive integers: 234
+// Sum of digit: 9
