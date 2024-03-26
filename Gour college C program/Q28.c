@@ -2,8 +2,8 @@
 
 int main()
 {
-    float nPr;
-    int n, r, fact_n = 1, fact_nr = 1;
+    float nCr;
+    int n, r, fact_n = 1, fact_r = 1, fact_nr = 1;
 
     printf("Enter the value of n : ");
     scanf("%d", &n);
@@ -14,18 +14,21 @@ int main()
     {
         fact_n = fact_n * i;
     }
-
+    for (int i = 1; i <= r; i++)
+    {
+        fact_r = fact_r * i;
+    }
     for (int i = 1; i <= n - r; i++)
     {
         fact_nr = fact_nr * i;
     }
 
-    nPr = fact_n / fact_nr;
+    nCr = fact_n / (fact_r * fact_nr);
 
-    printf("%dP%d is %f\n", n, r, nPr);
+    printf("%dC%d is %f\n", n, r, nCr);
 
     return 0;
 }
 // Enter the value of n : 5
 // Enter the value of r : 2
-// 5p2 is 20.000000
+// 5C2 is 10.000000

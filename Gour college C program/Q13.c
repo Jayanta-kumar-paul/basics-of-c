@@ -17,6 +17,9 @@ int main()
     {
         printf("These values do not form a right-angled triangle.\n");
     }
-
     return 0;
 }
+// Enter three integer values: 3
+// 4
+// 5
+// These values form the sides of a right-angled triangle.

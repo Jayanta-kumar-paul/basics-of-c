@@ -1,3 +1,5 @@
+//  7. If a four-digit number is input through the keyboard, write a program to obtain the sum of
+//  this number's first and last digits
 #include <stdio.h>
 
 int main()
@@ -7,11 +9,9 @@ int main()
     printf("Enter a four-digit number: ");
     scanf("%d", &num);
 
-    // Extract the first and last digits
     lastDigit = num % 10;
     firstDigit = num / 1000;
 
-    // Calculate the sum
     sum = firstDigit + lastDigit;
 
     printf("Sum of the first and last digits: %d\n", sum);

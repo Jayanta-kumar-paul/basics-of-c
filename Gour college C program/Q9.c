@@ -1,7 +1,10 @@
+// 9. WAPinCtofind the largest number from any two given numbers.
 #include <stdio.h>
+
 int main() 
 {
     int a, b;
+    
     printf("Please Enter Two different values:\n");
     scanf("%d %d", &a, &b);
 
@@ -17,6 +20,7 @@ int main()
     {
         printf("Both are Equal\n");
     }
+
     return 0;
 }
 // Please Enter Two different values:

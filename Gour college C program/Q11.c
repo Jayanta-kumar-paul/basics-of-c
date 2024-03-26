@@ -1,7 +1,11 @@
+// 11. WAP in C which takes a character as input and tells whether that character is a small
+// letter, a capital letter, or a number.
 #include <stdio.h>
+
 int main()
 {
     char ch;
+
     printf("Enter a character: ");
     scanf("%c", &ch);
 
@@ -21,6 +25,7 @@ int main()
     {
         printf("Special characters.\n");
     }
+  
     return 0;
 }
 // Enter a character: J

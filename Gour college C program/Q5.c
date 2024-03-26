@@ -1,14 +1,20 @@
+// 5. Write a program to swap the values of two variables.
 #include<stdio.h>
+
 int main()
 {
     int x,y,z;
     printf("Enter the two integers :");
     scanf("%d%d",&x,&y);
+
     printf("Before swapping value x=%d,y=%d\n",x,y);
+    
     z=x;
     x=y;
     y=z;
+    
     printf("After swapping value x=%d,y=%d",x,y);
+    
     return 0;
 }
 // Enter the two integers :10

@@ -1,4 +1,16 @@
-#include <stdio.h>
+
+//  12. Admission to a professional course is subject to the following conditions:
+//  (a) Marks in Mathematics >= 60
+//  (b) Marks in Computer Science >= 50
+//  (c) Marks in Chemistry >= 40
+//  (d) Total in all three subjects >= 200
+//     or
+//     Total in Mathematics and Computer Science >= 150
+//     Given the marks in the three subjects,
+//  i) Write a program to process the applications to list the eligible candidates using
+//     nested if.
+
+#include<stdio.h>
 
 int main()
 {
@@ -13,11 +25,11 @@ int main()
     printf("Enter marks in Chemistry: ");
     scanf("%d", &chemMarks);
 
-    totalMarks = mathMarks + csMarks + chemMarks;
+    totalMarks = mathMarks + csMarks + chemMarks;   
 
     if (mathMarks >= 60 && csMarks >= 50 && chemMarks >= 40)
     {
-        if (totalMarks >= 200 || (mathMarks + csMarks) >= 150)
+        if (totalMarks >= 200 || (mathMarks + csMarks) >= 150) 
         {
             printf("Congratulations! You are eligible for admission.\n");
         }
