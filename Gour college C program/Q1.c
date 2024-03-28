@@ -1,3 +1,6 @@
+//1. Your basic salary is input through the keyboard. Your dearness allowance is 40%
+// of the basic salary, and the house rent allowance is 20% of the basic salary.
+// Write a program to calculate your gross salary.
 #include <stdio.h>
 
 int main()

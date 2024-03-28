@@ -24,7 +24,7 @@ int main()
     return 0;
 }
 // Enter first integer values: 3
-// Enter second integer values: 4s
+// Enter second integer values: 4
 // Enter third integer values: 5
 
 // These values form the sides of a right-angled triangle.
