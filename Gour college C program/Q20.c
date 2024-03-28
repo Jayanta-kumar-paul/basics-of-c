@@ -1,3 +1,4 @@
+//  20. Write a program in C that takes a number as input and prints the sum of the digits of the number using do while loop.
 #include <stdio.h>
 
 int main()

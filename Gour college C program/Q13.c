@@ -1,17 +1,21 @@
+// 13. Write a program to read three integer values from the keyboard and display the output
+//  stating that they are the sides of a right-angled triangle.
 #include <stdio.h>
 
 int main()
 {
     int a, b, c;
 
-    // Input three integer values
-    printf("Enter three integer values: ");
-    scanf("%d %d %d", &a, &b, &c);
+    printf("Enter first integer values: ");
+    scanf("%d", &a);
+     printf("Enter second integer values: ");
+    scanf("%d", &b);
+     printf("Enter third integer values: ");
+    scanf("%d", &c);
 
-    // Check if they satisfy the Pythagorean theorem
     if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
     {
-        printf("These values form the sides of a right-angled triangle.\n");
+        printf("\nThese values form the sides of a right-angled triangle.\n");
     }
     else
     {
@@ -19,7 +23,9 @@ int main()
     }
     return 0;
 }
-// Enter three integer values: 3
-// 4
-// 5
+// Enter first integer values: 3
+// Enter second integer values: 4s
+// Enter third integer values: 5
+
 // These values form the sides of a right-angled triangle.
+

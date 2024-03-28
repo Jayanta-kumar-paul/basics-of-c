@@ -1,3 +1,5 @@
+// 18. Write a program in C that takes a number as input and prints it in reverse order using a
+//     while loop.
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,5 @@
+//  14. Write a program to find the larger of two numbers from any two given numbers using the
+//      conditional (ternary) operator.
 #include <stdio.h>
 
 int main()

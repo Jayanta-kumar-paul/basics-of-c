@@ -1,3 +1,5 @@
+//  19. Write a program in C that takes a number as input and prints its factorial value using for
+//      loop.
 #include <stdio.h>
 
 int main()

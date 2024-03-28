@@ -1,3 +1,4 @@
+//  23. Write a program to print the following patterns. The user will provide the no of lines.
 #include <stdio.h>
 
 int main()

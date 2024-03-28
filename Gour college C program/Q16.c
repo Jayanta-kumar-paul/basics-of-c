@@ -1,4 +1,6 @@
+//16. Write a program to perform the basic calculator operations using switch case.
 #include <stdio.h>
+
 int main()
 {
     int a, b, choice;

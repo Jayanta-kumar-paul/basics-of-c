@@ -1,3 +1,5 @@
+//  21. Write a program in C to accept some numbers from the user till the user wants and find out how many of them are (i) positives, (ii) negatives, (iii) even, and (iv) odd using do
+//      while loop.
 #include <stdio.h>
 
 int main()

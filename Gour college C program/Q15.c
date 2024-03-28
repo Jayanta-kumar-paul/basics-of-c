@@ -1,3 +1,5 @@
+// 15. Write a program to find the smallest numbers from any three given numbers using the
+//     conditional (ternary) operator.
 #include <stdio.h>
 
 int main()
