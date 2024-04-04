@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "Q29.C": "cpp"
+        "Q29.C": "cpp",
+        "q41.C": "cpp"
     }
 }
